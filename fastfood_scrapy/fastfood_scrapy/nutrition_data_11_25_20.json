@@ -1,4 +1,4 @@
-[
+{"data": [
 {"restaurant": "Tim Horton\u2019s Nutrition", "category": "", "name": "", "size": "", "calories": null},
 {"restaurant": "Tim Horton\u2019s Nutrition", "category": "", "name": "Sandwiches, Panini, Wraps", "size": "", "calories": null},
 {"restaurant": "Tim Horton\u2019s Nutrition", "category": "", "name": "BLT Sandwich", "size": "", "calories": "360"},
@@ -16483,4 +16483,4 @@
 {"restaurant": "Cookout Nutrition", "category": "", "name": "Side of Chili", "size": "", "calories": "160"},
 {"restaurant": "Cookout Nutrition", "category": "", "name": "Walnut Milkshake", "size": "", "calories": "850"},
 {"restaurant": "Cookout Nutrition", "category": "", "name": "Reg BBQ Sandwich", "size": "", "calories": "370"}
-]
+]}
