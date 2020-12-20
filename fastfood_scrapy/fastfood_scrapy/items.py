@@ -3,10 +3,24 @@
 # See documentation in:
 # https://docs.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+from scrapy import Item, Field
 
-
-class FastfoodScrapyItem(scrapy.Item):
+# Class for menu prices spider
+class Product(Item):
     # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    restaurant = Field()
+    category = Field()
+    name = Field()
+    size = Field()
+    price = Field()
+    url = Field()
+
+
+# Class for nutrition spider
+class Nutrition(Item):
+    # define the fields for your item here like:
+    restaurant = Field()
+    category = Field()
+    name = Field()
+    size = Field()
+    calories = Field()
